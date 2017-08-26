@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<button ion-button block (click)="funcionDojo()">Hola</button>
+  <ion-card>
+  <img [src]="informacion.avatar_url" alt=""/>
+  <ion-card-content>
+    <ion-card-title >
+      {{ informacion.login }}
+      </ion-card-title>
+    <p>
+      {{ informacion.login }}
+    </p>
+  </ion-card-content>
+</ion-card>
+
+
+
+</ion-content>
